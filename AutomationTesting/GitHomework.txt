@@ -1,0 +1,79 @@
+https://github.com/NenadG3
+
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop
+$ git clone https://github.com/NenadG3/bootcampVezbanje.git
+Cloning into 'bootcampVezbanje'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NenadGojkovic/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/shone/Desktop/bootcampVezbanje/.git/
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git add NenadGojkovic
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git commit -m "ubacen folder sa podcima"
+[main bc2ae20] ubacen folder sa podcima
+ 1 file changed, 1 insertion(+)
+ create mode 100644 NenadGojkovic/podaci.txt
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 375 bytes | 125.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/NenadG3/bootcampVezbanje.git
+   63068cd..bc2ae20  main -> main
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   vezba1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git add vezba1.txt
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git commit -m "izvrsena izmena u fajlu vezba1.txt"
+[main ae9c2f5] izvrsena izmena u fajlu vezba1.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/NenadG3/bootcampVezbanje.git
+   bc2ae20..ae9c2f5  main -> main
+
+shone@DESKTOP-LOJBPRR MINGW64 ~/Desktop/bootcampVezbanje (main)
+$
+
